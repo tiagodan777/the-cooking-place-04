@@ -1,1 +1,50 @@
 @charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    max-width: 90vw;
+    min-height: 20vh;
+    border-bottom: 1px solid #cecece;
+    margin: auto;
+    position: relative;
+}
+
+header  img#logo {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+}
+
+header > form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header input#search {
+    padding: 15px;
+}
+
+header input#submit {
+    display: none;
+}
+
+header aside {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 93%;
+}
