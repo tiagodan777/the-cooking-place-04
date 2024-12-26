@@ -13,14 +13,14 @@ html, body {
 }
 
 header {
-    max-width: 90vw;
+    max-width: 93vw;
     min-height: 20vh;
     border-bottom: 1px solid #cecece;
     margin: auto;
     position: relative;
 }
 
-header  img#logo {
+header img#logo {
     position: absolute;
     top: 50%;
     left: 5%;
@@ -36,6 +36,8 @@ header > form {
 
 header input#search {
     padding: 15px;
+    border: 1px solid #cecece;
+    border-radius: 30px;
 }
 
 header input#submit {
@@ -43,8 +45,23 @@ header input#submit {
 }
 
 header aside {
+    padding: 10px;
     position: absolute;
-    display: block;
     top: 50%;
-    left: 93%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    min-width: 10vw;
+}
+
+header aside img {
+    margin: 10px;
+    border-radius: 50%;
+}
+
+main {
+    text-align: center;
+}
+
+main article {
+    border: 1px solid green;
 }

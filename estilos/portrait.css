@@ -1,1 +1,5 @@
 @charset "UTF-8";
+
+input#search {
+    width: 300px;
+}
